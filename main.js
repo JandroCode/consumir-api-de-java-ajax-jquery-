@@ -42,6 +42,7 @@ $(document).ready( () => {
 
     }
 
+    //Guardar alumno
     const save = () => {
         $('#agregar').on('click', function(){
             const datosAlumno = {
